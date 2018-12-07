@@ -74,7 +74,7 @@ def series_to_supervised(data, n_in=1, n_out=1, dropnan=True):
 
 def cs_to_sl():
     # load dataset
-    dataset = pd.read_csv('pollution.csv', header=0, index_col=0)
+    dataset = pd.read_csv('pollution.csv', encoding='unicode',header=0, index_col=0)
     values = dataset.values
     # integer encode direction
     encoder = LabelEncoder()
