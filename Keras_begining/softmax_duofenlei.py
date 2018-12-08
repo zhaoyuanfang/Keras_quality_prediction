@@ -1,11 +1,7 @@
 from keras.models import Sequential
-print("import4 success")
 from keras.layers import Dense, Dropout, Activation
-print("import3 success")
 from keras.optimizers import SGD
-print("import2 success")
 import keras
-print("import1 success!!")
 # Generate dummy data
 import numpy as np
 x_train = np.random.random((1000, 20))
